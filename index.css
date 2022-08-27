@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header section-> call and email */
+.header {
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 23px;
+    height: 23px;
+}
+
+.header .call {
+    display: flex;
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+.header .email {
+    display: flex;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+/* logo and nav bar section */
+
+.nav div {
+    background-color: rgb(209, 227, 255);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .logosection img {
+    width: 123px;
+    height: 30px;
+    margin-top: 22px;
+    margin-left: 26px;
+    cursor: pointer;
+}
+
+.nav .logosection ul {
+    list-style: none;
+    display: flex;
+    margin-top: 22px;
+    margin-right: 46px;
+    cursor: pointer;
+}
+
+.nav .logosection ul li {
+    padding-left: 50px;
+}
+
+.nav .logosection ul .home {
+    color: rgb(56, 96, 204);
+}
+
+.nav .logosection ul li:hover {
+    color: rgb(56, 96, 204);
+}
+
+/* infosection */
+body .infosection {
+    background-color: rgb(209, 227, 255);
+    height: 656px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infosection .infoleft {
+    margin-top: 155px;
+    margin-left: 191px
+}
+
+.infosection .infoleft .heading {
+    color: rgb(3, 85, 204);
+    width: 250px;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.infosection .infoleft .detail {
+    color: rgb(68, 68, 74);
+    margin-bottom: 29px;
+    width: 574px;
+}
+
+.infosection .infoleft .contact-btn a button {
+    background-color: rgb(255, 138, 29);
+    width: 180px;
+    padding: 15px;
+    border-radius: 7px;
+    border: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.infosection .infoleft .contact-btn button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(255, 138, 29);
+    color: rgb(255, 138, 29);
+    transition: background-color 0.2s ease;
+}
+
+.infosection .slider-img img {
+    margin-right: 171px;
+    margin-top: -33px;
+}
+
+/* RIM-section */
+.RIM-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: -100px;
+    margin-right: 2px;
+    margin-bottom: 78px;
+}
+
+.RIM-section .box {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 32px;
+    margin-left: 27px;
+}
+
+.RIM-section .box h3 {
+    text-align: center;
+    color: rgb(114, 109, 174)
+}
+
+.RIM-section .box .improve h3 {
+    text-align: center;
+    color: white
+}
+
+.RIM-section .box .repair img {
+    width: 5vw;
+    margin: 32px 0px 18px 138px;
+    filter: invert(51%) sepia(7%) saturate(3218%) hue-rotate(205deg) brightness(85%) contrast(83%);
+}
+
+.RIM-section .box .improve img {
+    width: 5vw;
+    margin: 32px 0px 18px 138px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(348deg) brightness(102%) contrast(101%);
+}
+
+.RIM-section .box .maintain img {
+    width: 5vw;
+    margin: 32px 0px 18px 138px;
+    filter: invert(51%) sepia(7%) saturate(3218%) hue-rotate(205deg) brightness(85%) contrast(83%);
+}
+
+.RIM-section .box .repair {
+    box-shadow: 0px 0px 5px 2px rgb(211, 211, 211);
+    width: 23vw;
+    height: 32vh;
+    background-color: #fff;
+}
+
+.RIM-section .box .improve {
+    box-shadow: 0px 0px 5px 2px rgb(211, 211, 211);
+    width: 23vw;
+    height: 32vh;
+    color: white;
+    background-color: rgb(255, 138, 29);
+}
+
+.RIM-section .box .maintain {
+    box-shadow: 0px 0px 5px 2px rgb(211, 211, 211);
+    width: 23vw;
+    height: 32vh;
+    background-color: #fff;
+}
+
+.RIM-section .repair:hover {
+    background-color: rgb(255, 138, 29);
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+.RIM-section .maintain:hover {
+    background-color: rgb(255, 138, 29);
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+/* about-us */
+.aboutus {
+    height: 656px;
+    display: flex;
+}
+
+.aboutus .leftside {
+    margin-top: 122px;
+    margin-left: 174px;
+}
+
+.aboutus .leftside .about-heading p {
+    margin-bottom: 14px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.aboutus .leftside p {
+    margin-bottom: 22px;
+    width: 554px;
+}
+
+.aboutus .leftside .readmore-btn a button {
+    background-color: rgb(3, 85, 204);
+    width: 180px;
+    padding: 15px;
+    border: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 22px;
+}
+
+.aboutus .leftside .readmore-btn button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(3, 85, 204);
+    color: rgb(3, 85, 204);
+    transition: background-color 0.2s ease;
+}
+
+.aboutus img {
+    width: 43vw;
+    margin-left: 38px;
+}
+
+/* home-services */
+body .homesevices {
+    background-color: rgb(209, 227, 255);
+    height: 825px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -86px;
+}
+
+.homesevices .professional-img img {
+    margin-left: 171px;
+    margin-top: 92px;
+}
+
+.homesevices .inforight {
+    margin-top: 97px;
+}
+
+.homesevices .heading {
+    margin-top: 155px;
+    margin-left: 191px;
+    color: rgb(3, 85, 204);
+    margin-bottom: 20px;
+    margin-left: auto;
+    font-size: 21px;
+}
+
+.homesevices .detail {
+    color: rgb(68, 68, 74);
+    margin-bottom: 29px;
+    width: 574px;
+}
+
+.homesevices .readmore-btn a button {
+    background-color: rgb(255, 138, 29);
+    width: 180px;
+    padding: 15px;
+    border-radius: 7px;
+    border: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.homesevices .readmore-btn button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(255, 138, 29);
+    color: rgb(255, 138, 29);
+    transition: background-color 0.2s ease;
+}
+
+.ourservices .heading1 {
+    text-align: center;
+    margin-top: 109px;
+    margin-bottom: 63px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.ourservices h2 {
+    text-align: center;
+}
+
+.ourservices p {
+    text-align: center;
+    margin: 19px;
+}
+
+.ourservices .boxes {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 32px;
+    margin-left: 174px;
+}
+
+.ourservices .boxes img {
+    width: 4vw;
+    margin: 32px 0px 17px 148px;
+}
+
+.ourservices .boxes .box1 {
+    box-shadow: 0px 0px 5px 2px rgb(211, 211, 211);
+    width: 24vw;
+    height: 35vh;
+}
+
+.ourservices .boxes .box2 {
+    box-shadow: 0px 0px 5px 2px rgb(211, 211, 211);
+    width: 24vw;
+    height: 35vh;
+}
+
+.ourservices .boxes .box3 {
+    box-shadow: 0px 0px 5px 2px rgb(211, 211, 211);
+    width: 24vw;
+    height: 35vh;
+}
+.ourservices .boxes :hover {
+    background-color: rgb(255, 138, 29);
+    color: white;
+    transition: background-color 0.6s cubic-bezier(0,.99,.99,.99);
+}
+
+.ourservices .ourservices-btn a button {
+    background-color: rgb(3, 85, 204);
+    width: 180px;
+    padding: 15px;
+    border: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 668px;
+    margin-bottom: 100px;
+}
+
+.ourservices .ourservices-btn button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(3, 85, 204);
+    color: rgb(3, 85, 204);
+    transition: background-color 0.2s ease;
+}
+
+/* what our client says */
+.ourclient p {
+    text-align: center;
+    margin-bottom: 4vw;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.ourclient .clientreviews {
+    display: flex;
+    gap: 3rem;
+    margin-left: 15vw;
+    margin-bottom: 30px;
+}
+
+.ourclient .jorch {
+    display: flex;
+    box-shadow: 0px 0px 4px 2px rgb(211, 211, 211);
+    width: 34vw;
+    height: 35vh;
+}
+
+.ourclient .morck {
+    display: flex;
+    box-shadow: 0px 0px 4px 2px rgb(211, 211, 211);
+    width: 34vw;
+    height: 35vh;
+}
+
+.ourclient .jorch img {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 21px;
+}
+
+.ourclient .morck img {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 21px;
+}
+
+.ourclient .jorch .j_name {
+    margin-top: 62px;
+    margin-left: 15px;
+}
+
+.ourclient .morck .m_name {
+    margin-top: 62px;
+    margin-left: 15px;
+}
+
+.ourclient .jorch .j_colon {
+    margin-top: 62px;
+    margin-left: 193px;
+}
+
+.ourclient .morck .m_colon {
+    margin-top: 62px;
+    margin-left: 193px;
+}
+
+.ourclient .jbox {
+    display: flex;
+}
+
+.ourclient .arrow {
+    display: flex;
+    gap: 1rem;
+    margin-left: 46vw;
+}
+
+.ourclient .arrow div a button {
+    background-color: rgb(3, 85, 204);
+    width: 4vw;
+    padding: 15px;
+    border: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 6vw;
+}
+
+/* coctact us  */
+.contactform {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    margin-bottom: 133px;
+}
+
+.contactform .createform {
+    margin-left: 15vw;
+}
+
+.contactform .createform .heading p {
+    margin-bottom: 2vw;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.contactform .createform input,
+a {
+    display: block;
+}
+
+.contactform .createform input,
+textarea {
+    width: 560px;
+    padding: 15px;
+    border: transparent;
+    box-shadow: 0px 0px 5px 2px rgb(211, 211, 211);
+    margin-bottom: 22px;
+}
+
+.contactform .form a button {
+    background-color: rgb(3, 85, 204);
+    width: 160px;
+    padding: 15px;
+    border: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.contactform .form button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(3, 85, 204);
+    color: rgb(3, 85, 204);
+    transition: background-color 0.2s ease;
+}
+
+.contactform .map img {
+    width: 42vw;
+}
+
+/* footer */
+body footer {
+    background-color: rgb(10, 15, 67);
+    height: 79vh;
+}
+
+footer .footor_p p {
+    text-align: center;
+    color: white;
+    padding: 86px;
+    font-size: x-large;
+    font-weight: bold;
+}
+footer .location-img {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 498px;
+    width: 522px;
+    cursor: pointer;
+    
+}
+footer .location-img img{
+    width: 35px;
+    padding: 2px;
+    filter: invert(99%) sepia(6%) saturate(1902%) hue-rotate(200deg) brightness(116%) contrast(100%);
+}
+
+
+footer .location-img img:hover{
+    filter: invert(57%) sepia(100%) saturate(1672%) hue-rotate(345deg) brightness(104%) contrast(102%);
+}
+footer .hrline1{
+    color: #fff;
+    margin-bottom: 22px;
+    width: 8vw;
+    position: relative;
+    bottom: 39%;
+    left: 40%;
+}
+footer .hrline2{
+    color: #fff;
+    margin-bottom: 22px;
+    width: 8vw;
+    position: relative;
+    bottom: 43%;
+    left: 52%;
+}
+
+
+footer .footor_p2 p {
+    text-align: center;
+    color: white;
+    padding: 86px;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+footer .social {
+    background-color: #fff;
+    display: flex;
+    width: 8vw;
+    border: 1px solid rebeccapurple;
+    padding: 8px;
+    margin-left: 46%;
+    margin-top: -50px;
+    margin-bottom: 19px;
+    border: 1px solid white;
+}
+
+footer .social img {
+    width: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+footer .social div img  :hover {
+    filter: invert(97%) sepia(3%) saturate(859%) hue-rotate(264deg) brightness(116%) contrast(100%);
+    transition: background-color 0.6s cubic-bezier(0,.99,.99,.99);
+    background-color: orange;
+}
+footer .copyright {
+    border-top: 1px solid white;
+    color: white;
+    text-align: center;
+    width: 70vw;
+    padding: 33px;
+    margin-left: 14vw;
+}
